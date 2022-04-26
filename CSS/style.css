@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Wordle";
+  src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
+}
+
+.wordle-ft {
+  font-family: "Wordle", Arial, sans-serif;
+}
+
+* {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.titulo {
+  margin-bottom: 80px;
+  font-size: 2.2rem;
+  font-weight: 1000;
+  padding: 6px;
+  border-bottom: 1px solid #d3d6da;
+  display: inline-block;
+  margin-bottom: 165px;
+}
+
+.tabuleiro {
+  left: calc(50% - 200px);
+  display: inline-block;
+  font-size: 0;
+  font-weight: 800;
+  width: 400px;
+  font-family: "Wordle", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 2rem;
+  position: absolute;
+}
+/* Retirando o br Ele limita com width o tamanho para que o inline-block quebre a linha, desde que utilize font-size:0 */
+
+.tabuleiro > .quadradoCinza {
+  font-size: 2rem;
+  border: 2px solid #d3d6da;
+  display: inline-block;
+  border: 2px solid #d3d6da;
+  width: 1em;
+  height: 1em;
+  padding: 14px;
+  margin: 2px;
+  justify-content: center;
+}
+
+.quadradoErrado {
+  font-size: 2rem;
+  box-sizing: content-box;
+  background-color: #787c7e;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: 14px;
+  border: 2px solid transparent;
+  margin: 2px;
+}
+
+.quadradoCerto {
+  font-size: 2rem;
+  background-color: #6aaa64;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: 14px;
+  border: 2px solid transparent;
+  margin: 2px;
+}
+
+.quadradoQuase {
+  font-size: 2rem;
+  background-color: #c9b458;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: 14px;
+  border: 2px solid transparent;
+  margin: 2px;
+}
+
+header > button {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin: 2px 2px;
+}
+
+.teclado {
+  font-size: 0px;
+  bottom: 1px;
+  position: absolute;
+  left: calc(50% - 250px);
+  width: 500px;
+}
+
+button {
+  margin: 3px;
+  background-color: #d3d6da;
+  width: 43px;
+  border-radius: 4px;
+  height: 58px;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  border: solid 1px transparent;
+}
+
+.enter {
+  width: 65px;
+}
+
+.backspace {
+  width: 65px;
+}
+
+.bntGrey {
+  background-color: grey;
+  color: #ffffff;
+}
+
+.bntyellow {
+  background-color: #c9b458;
+  color: #ffffff;
+}
+
+.bntGreen {
+  background-color: #6aaa64;
+  color: #ffffff;
+}
