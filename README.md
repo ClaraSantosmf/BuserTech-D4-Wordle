@@ -1,4 +1,4 @@
-# wordle
+# Wordle
 Study about pixel perfect frontend with wordler image at BuserTech Programmer. 
 
 In the same time, i'm trying to do everything in english for pratice. 
