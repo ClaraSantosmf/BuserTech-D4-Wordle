@@ -1,5 +1,5 @@
 # Wordle
-Study about pixel perfect frontend with wordler image at BuserTech Programmer. 
+Study about pixel perfect frontend with wordler image at BuserTech Programmer. Result https://clarasantosmf.github.io/wordle-D4/
 
 In the same time, i'm trying to do everything in english for pratice. 
 
